@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+
+* {
+    font-family: 'Monsterrat';
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.mainSlider {
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: -2;
+
+}
+
+.content-wrapper {
+    position: absolute;
+    z-index: 5;
+}
+
+#topMenu {
+    display: flex;
+    color: #fff;
+}
+
+.brandCol {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.addressCol {
+    margin: 25px 0 0 250px;
+    line-height: 3px;
+    text-align: right;
+}
+
+.addressCol a {
+    color: #f0bf64;
+    text-decoration: none;
+}
+
+#mainMenu {
+    background-color: #0000008c;
+    color: #fff;
+    height: 55px;
+    width: 100%;
+
+}
+
+#mainMenu ul {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.nav-item {
+    float: left;
+    margin: 0 20px 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 120px;
+    height: 28px;
+    padding: 15px;
+
+}
+
+
+.nav-item:hover {
+    background-color: #000000da;
+    transition: background-color cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+.mainJumbotron {
+    clear: both;
+    margin-top: 120px;
+    color: #fff;
+}
+
+.mainJumbotron h2 {
+    font-weight: 300;
+    line-height: 2px;
+    margin: 0;
+}
+
+.mainJumbotron h1 {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 70px;
+    margin: 25px 0 25px 0;
+}
+
+.mainJumbotron p {
+    margin-bottom: 15px;
+}
+
+.mainJumbotron .btn-main {
+    padding: 15px 45px;
+    background-color: #b48632;
+    color: #ccc;
+    font-size: 18px;
+}
