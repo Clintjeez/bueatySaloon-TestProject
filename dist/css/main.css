@@ -44,15 +44,21 @@ body {
     font-weight: bold;
 }
 
-.addressCol {
+.topMenuCol {
     margin: 25px 0 0 250px;
-    line-height: 3px;
+    line-height: 6px;
     text-align: right;
 }
 
-.addressCol a {
+.topMenuCol a {
     color: #f0bf64;
     text-decoration: none;
+}
+
+.topMenuCol i {
+    font-size: 10px;
+    padding: 0 2px;
+    height: 0.5px;
 }
 
 #mainMenu {
@@ -118,3 +124,5 @@ body {
     color: #ccc;
     font-size: 18px;
 }
+
+/* SERVICES SESSIONS STYLE */
