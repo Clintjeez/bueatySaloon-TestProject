@@ -1,0 +1,23 @@
+{
+  "name": "Beauty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-page -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clintjeez/bueatySaloon-TestProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clintjeez/bueatySaloon-TestProject/issues"
+  },
+  "homepage": "https://Clintjeez.github.io/bueatySaloon-TestProject",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
